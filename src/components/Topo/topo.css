@@ -1,0 +1,25 @@
+header{
+    background-color: #f7d982;
+    position: fixed;
+    z-index: 1;
+}
+
+.container-topo{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1024px;
+    width: 80%;
+}
+
+.container-topo img{
+    width: 60px;
+
+}
+
+.links-topo{
+    text-decoration: none;
+    color: darkslategrey;
+    padding-left: 30px;
+}
