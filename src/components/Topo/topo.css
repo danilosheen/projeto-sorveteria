@@ -1,7 +1,11 @@
+/* estilos topo */
+
 header{
-    background-color: #f7d982;
+    background-color: #f9db79;
     position: fixed;
+    width: 100%;
     z-index: 1;
+    
 }
 
 .container-topo{
@@ -22,4 +26,24 @@ header{
     text-decoration: none;
     color: darkslategrey;
     padding-left: 30px;
+}
+
+@media screen and (max-width: 445px){
+    .container-topo{
+        flex-direction: column;
+
+    }
+
+    .links-topo{
+        
+        padding: 0;
+    }
+
+    nav{
+        border-top: 1px solid darkslategrey;
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
 }
