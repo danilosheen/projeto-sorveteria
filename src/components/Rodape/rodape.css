@@ -1,0 +1,43 @@
+footer{
+    width: 100%;
+    background-color: #000000;
+}
+
+.content-rodape{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    max-width: 1024px;
+    width: 80%;
+    padding: 40px 0;
+    
+}
+
+.logo-rodape{
+    width: 100px;
+}
+
+.content-rodape div h2{
+    margin-bottom: 10px;
+}
+
+.content-rodape div p{
+    line-height: 25px;
+}
+
+.text-dev-footer{
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    border-top: 1px solid #99999986;
+}
+
+@media screen and (max-width: 768px){
+    .content-rodape{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+}
