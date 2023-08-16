@@ -1,10 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "./sobre.css";
 
-export default function Sobre(){
-    return(
-        <div>
+// componentes locais
+import Topo from "../../components/Topo/topo";
+import Rodape from "../../components/Rodape/rodape";
 
-        </div>
-    );
+export default function Sobre() {
+  return (
+    <div>
+      <Topo />
+      <h1>Sobre</h1>
+      <Rodape />
+    </div>
+  );
 }
