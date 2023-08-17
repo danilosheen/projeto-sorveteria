@@ -17,6 +17,10 @@
 }
 
 /* estilos sections conteudo */
+
+.main-content{
+  margin: 30px 0;
+}
 .conteudo {
   margin: 0 auto;
   max-width: 1024px;
