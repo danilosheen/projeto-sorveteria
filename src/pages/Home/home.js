@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Topo />
       <div>
-        <section className="banner">
+        <section className="banner-home">
           <div>
             <h1 className="texto-banner">SORVETE ARTESANAL</h1>
           </div>

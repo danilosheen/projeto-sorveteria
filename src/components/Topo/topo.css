@@ -26,6 +26,11 @@ header{
     text-decoration: none;
     color: darkslategrey;
     padding-left: 30px;
+    font-weight: bold;
+}
+
+.links-topo:hover{
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 445px){
