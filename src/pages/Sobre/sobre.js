@@ -42,6 +42,10 @@ export default function Sobre() {
               cidade.
             </p>
           </div>
+          <div className="container-imgs-sobre">
+            <div className="imagem-1"></div>
+            <div className="imagem-2"></div>
+          </div>
         </section>
       </div>
       <Rodape />

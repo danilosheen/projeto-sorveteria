@@ -27,8 +27,35 @@
     text-align: justify;
 }
 
+.container-imgs-sobre{
+    width: 100%;
+    display: flex;
+}
+
+.imagem-1{
+    background-image: url("/public/assets/sobre-image.jpg");
+    width: 50%;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+.imagem-2{
+    background-image: url("/public/assets/sorveteria.jpg");
+    width: 50%;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
 @media screen and (max-width: 500px) {
     .texto-banner{
         font-size: 40px;
+    }
+
+    .imagem-1{
+        display: none;
+    }
+    .imagem-2{
+        display: none;
     }
 }
